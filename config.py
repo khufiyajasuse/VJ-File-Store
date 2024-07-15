@@ -94,9 +94,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "vj-file-store.gigantic-pony.internal:8080"
+        URL = "https://lonely-kristal-ashwini-66d7b93a.koyeb.app/"
     else:
-        URL = "vj-file-store.gigantic-pony.internal:8080"
+        URL = "https://lonely-kristal-ashwini-66d7b93a.koyeb.app/"
 
 
 
