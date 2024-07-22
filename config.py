@@ -36,9 +36,9 @@ ADMINS = int(environ.get("ADMINS", "6371924437"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://sahukumarashwini00:UglslTedNa7TSLTL@dusra.fmnarkg.mongodb.net/?retryWrites=true&w=majority&appName=dusra")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://ashwinimalaysian:5gRvQgPW4DRhlEpE@pehla.uuzwevb.mongodb.net/?retryWrites=true&w=majority&appName=pehla")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CDB_NAME = environ.get("CDB_NAME", "sahukumarashwini00")
+DB_URI = environ.get("DB_URI", "mongodb+srv://dusra:sLwO6AhOgadMNHL5@dusra.r7gkttx.mongodb.net/?retryWrites=true&w=majority&appName=dusra")
+DB_NAME = environ.get("DB_NAME", "dusra")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -54,7 +54,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002168028572"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002148936460"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002194250273')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -76,10 +76,10 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 # File Stream Config
 class Var(object):
     MULTI_CLIENT = False
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', 'batman'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002168028572'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002212891180'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
